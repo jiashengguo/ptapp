@@ -1,0 +1,15 @@
+{
+    "projectName": "PtApp",
+    "languages": [{
+        "id": "pt-app",
+        "grammar": "src/language/pt-app.langium",
+        "fileExtensions": [".pt"],
+        "textMate": {
+            "out": "syntaxes/pt-app.tmLanguage.json"
+        },
+        "monarch": {
+            "out": "syntaxes/pt-app.monarch.ts"
+        }
+    }],
+    "out": "src/language/generated"
+}
